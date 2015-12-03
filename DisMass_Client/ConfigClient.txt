@@ -1,0 +1,12 @@
+-s, --server-ip        IP address of dismass server.
+-p, --server-port      Port of dismass server. Dismass port defaults to 46002
+-a, --alias      Your name alias so we can give credit to you for your help. Optional
+-d, --debug      Debuging.
+-m, --max-rate      Force masscans commands to use at most this rate. Useful to slow masscan down. Adds the --max-rate parameter.
+
+
+
+-s 192.168.73.132 -a client1
+python dismass_client.py -s 192.168.73.132 -a client1
+
+-s source-ip -a clientname
